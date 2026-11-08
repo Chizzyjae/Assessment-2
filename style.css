@@ -390,7 +390,7 @@ nav a{
         color: #3284FF;
 
         form{
-            min-width: 392px;
+            max-width: 392px;
             min-height: 128px;
             margin: 42px 42px 24px 42px;
             justify-items: center;
