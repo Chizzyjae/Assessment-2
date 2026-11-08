@@ -372,7 +372,7 @@ nav a{
   color:#005AE2;
 }
 .main17{
-    min-width: 1440px;
+    max-width: 1440px;
     min-height: 524px;
     background-color: #1E3448;
     align-content: center;
@@ -522,7 +522,7 @@ nav a{
     }
 }
 .main20{
-    min-width: 1440px;
+    max-width: 1440px;
     min-height: 400px;
     align-items: center;
     position: relative;
