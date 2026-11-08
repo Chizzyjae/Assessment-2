@@ -380,7 +380,7 @@ nav a{
     margin-top: 112px;
 
     .main18{
-        min-width: 476px;
+        max-width: 476px;
         min-height: 356px;
         background-color: #FFFFFF;
         margin: 0 auto;
@@ -525,6 +525,7 @@ nav a{
     min-width: 1440px;
     min-height: 400px;
     align-items: center;
+    position: relative;
     /* border: 1px solid yellow; */
 
     section{
@@ -540,7 +541,10 @@ nav a{
     .main21{
         max-width: 668px;
         max-height: 758px;
-        margin: 0px -60px ;
+        left: -20px;
+        top: 0px;
+        position: absolute;
+        background-color: transparent;
     }
     .main22{
         min-width: 806px;
@@ -574,11 +578,14 @@ nav a{
         }
     }
     .main23{
+        position: absolute;
         max-width: 804px;
         max-height: 596px; 
         margin-bottom: 0px;
         margin-left: -60px;  
-        background-color: transparent;  
+        background-color: transparent;
+        right: 0px; 
+        top: 0px; 
     }
 }
 .main24{
